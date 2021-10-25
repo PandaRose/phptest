@@ -1,4 +1,6 @@
-<?php require_once('../vendor/autoload.php');
+<?php 
+
+require_once('../vendor/autoload.php');
 
 class Greeter
 {
@@ -67,6 +69,8 @@ $resources = [
                 component embedded in a page.
             </p>
             <div id="react"></div>
+            <hr/>
+            <div id="app"></div>
         </div>
     </main>
 </body>
@@ -100,5 +104,7 @@ $resources = [
     ReactDOM.render(<Timer/>, 
         document.querySelector('#react'));
 </script>
+
+<script src="/build/bundle.js"></script>
 
 </html>
