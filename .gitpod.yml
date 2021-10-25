@@ -14,7 +14,3 @@ tasks:
     command: >
       apachectl start &&
       multitail /var/log/apache2/access.log -I /var/log/apache2/error.log
-vscode:
-  extensions:
-    - humao.rest-client@0.24.2:tiNIwP71m33jcKqZcyO2EQ==
-    - rokoroku.vscode-theme-darcula@1.2.1:N6IL8ttOWcXvr67zJpASvQ==
