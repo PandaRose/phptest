@@ -50,6 +50,11 @@ $resources = [
         <div class="container">
             <a style="float:right" href="/mysql" class="btn btn-primary" target="_blank">MySQL Admin</a>
             <h1 class="mt-5"><?= $greeter->greet() ?></h1>
+            <?php if(substr_count($_SERVER["QUERY_STRING"] ?? '', 'vscode')): ?>
+                <p>
+                    Open <b>https://<?= $_SERVER["HTTP_HOST"] ?></b> in a new window to ensure links open properly.
+                </p>
+            <?php endif ?>
             <p>Some helpful starting points...</p>
             <ul>
                 <?php foreach ($resources as $url => $title) : ?>
