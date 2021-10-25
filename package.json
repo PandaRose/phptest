@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "scripts": {
+    "watch": "node ./node_modules/webpack-cli/bin/cli.js --watch --progress --mode development --config ./webpack.config.js",
+    "watch-production": "node ./node_modules/webpack-cli/bin/cli.js --watch --progress --mode production --config ./webpack.config.js",
+    "build": "node ./node_modules/webpack-cli/bin/cli.js --progress --mode production --config ./webpack.config.js"
+  }
+}

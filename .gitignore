@@ -1,2 +1,4 @@
 public/mysql
+public/build
 vendor/
+node_modules/
