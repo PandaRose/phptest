@@ -63,6 +63,10 @@ $resources = [
                 Composer, NPM and Yarn are available at the terminal.
                 The working environment is Ubuntu Linux.
             </p>
+            <p>
+                Presets our informed by our own working environments, but
+                this is your environment and you can override as you see fit.
+            </p>
             <hr />
             <p>Some helpful starting points...</p>
             <ul>
