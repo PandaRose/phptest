@@ -12,5 +12,7 @@ tasks:
       multitail /var/log/apache2/access.log -I /var/log/apache2/error.log
   - init: |
       composer install;
+      yarn;
       sh ./.gitpod/phpMyAdmin.sh;
+      yarn build;
       gp preview $(gp url 8001);
