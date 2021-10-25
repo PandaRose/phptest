@@ -15,5 +15,4 @@ tasks:
       yarn;
       sh ./.gitpod/phpMyAdmin.sh;
       yarn build;
-      echo "Waiting for Apache...";
       gp await-port 8001 && gp preview $(gp url 8001);
