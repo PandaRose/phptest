@@ -70,6 +70,10 @@ $resources = [
             </p>
             <div id="react"></div>
             <hr/>
+            <p>
+                We prefer the newer functional style.
+            </p>
+            <hr/>
             <div id="app"></div>
         </div>
     </main>
