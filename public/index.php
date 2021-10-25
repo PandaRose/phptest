@@ -55,6 +55,15 @@ $resources = [
                     Open <b>https://<?= $_SERVER["HTTP_HOST"] ?></b> in a new window to ensure links open properly.
                 </p>
             <?php endif ?>
+            <p>
+                This is just a starting template, and you can feel free to bring in your 
+                framework or libraries of choice.
+            </p>
+            <p>
+                Composer, NPM and Yarn are available at the terminal.
+                The working environment is Ubuntu Linux.
+            </p>
+            <hr />
             <p>Some helpful starting points...</p>
             <ul>
                 <?php foreach ($resources as $url => $title) : ?>
