@@ -1,0 +1,4 @@
+linux: true
+apache: true
+mysql: true
+php: true
